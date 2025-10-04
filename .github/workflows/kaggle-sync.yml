@@ -28,7 +28,7 @@ jobs:
 
  - name: Download Kaggle Notebook
  run: |
- kaggle kernels pull your_username/your_notebook_name -p ./kaggle_notebook --force
+ kaggle kernels pull /maihopeltonen/nursery-dataset-draft -p ./kaggle_notebook --force
 
  - name: Commit & Push
  run: |
